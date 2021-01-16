@@ -8,5 +8,3 @@ Array.prototype.drop = function (item) {
         return this.splice(index, 1)?.[0];
     }
 }
-
-console.log([1, 2, 3, "2"].drop("2d"));
